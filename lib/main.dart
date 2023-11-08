@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 appTheme() => ThemeData(
+  useMaterial3: true,
   primaryColor: Color(0xff143D90),
   appBarTheme: AppBarTheme(
     color: Color(0xff143D90)
