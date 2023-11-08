@@ -105,7 +105,7 @@ class _SeminarListState extends State<SeminarList> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Icon(
-                                Icons.calendar_today,
+                                Icons.date_range,
                                 size: 20,
                               ),
                             ],
@@ -117,10 +117,10 @@ class _SeminarListState extends State<SeminarList> {
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
                           child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Icon(
-                                Icons.event,
+                                Icons.travel_explore,
                                 size: 20,
                               ),
                               Text(
@@ -154,36 +154,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                    "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                    overflow: TextOverflow.ellipsis,
+                                  )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
@@ -199,36 +209,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                        "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                        overflow: TextOverflow.ellipsis,
+                                      )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
@@ -244,36 +264,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                        "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                        overflow: TextOverflow.ellipsis,
+                                      )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
@@ -289,36 +319,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                        "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                        overflow: TextOverflow.ellipsis,
+                                      )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
@@ -334,36 +374,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                        "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                        overflow: TextOverflow.ellipsis,
+                                      )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
@@ -379,36 +429,46 @@ class _SeminarListState extends State<SeminarList> {
                   Row(
                     children: [
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 100,
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
+                          child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("2022-11-01"),
+                              Text("12:00 AM"),
                             ],
                           )),
                       Expanded(
                         child: Container(
-                          height: 40,
+                          height: 80,
                           padding: EdgeInsets.only(left: 10),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.grey)),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.start,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Flexible(
-                                  child: Text(
-                                "Aaaa Bbbb Cccc Dddd Eeee Fffff",
-                                overflow: TextOverflow.ellipsis,
-                              )),
+                              SizedBox(height: 5,),
+                              Text("Young People"),
+                              SizedBox(height: 5,),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  Flexible(
+                                      child: Text(
+                                        "Aaaa Bbbb Cccc Dddd Eeee Fffff",
+                                        overflow: TextOverflow.ellipsis,
+                                      )),
+                                ],
+                              ),
                             ],
                           ),
                         ),
                       ),
                       Container(
-                          height: 40,
+                          height: 80,
                           width: 50,
                           decoration: BoxDecoration(
                               color: Colors.grey[100],
